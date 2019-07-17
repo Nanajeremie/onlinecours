@@ -1,0 +1,114 @@
+#enrollContener{
+    position: relative;
+    width: 35%;
+    margin: auto;
+    height: 900px;
+    margin-bottom: 50px;
+   
+}
+#enrollForm{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    border: 1px solid #7cadff;
+    box-shadow: 2px 2px 4px 3px rgba(0,0,0,0.7);
+    background-color:white;
+    transition: 2s;
+    
+
+}
+#enrollForm h2{
+    text-align: center;
+    position: absolute;
+    line-height: 50px;
+    color: white;
+    top: -20px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: darkblue;
+    margin-bottom: 4%;
+}
+#firstname,#lastname,#Email,#profession,#birthday,#tel,#username,#pass1,#pass2{
+   position: absolute;
+    margin-left: 7%;
+    width: 80%;
+    height: 40px;
+    padding-left: 15px;
+    transition: 0.5s;
+}
+#firstname:hover,#lastname:hover,#Email:hover,#profession:hover,#birthday:hover,#tel:hover,#username:hover,#pass1:hover,#pass2:hover{
+    width: 82%;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    transition: 0.5;
+}
+#firstname{
+    top: 10%;
+}#lastname{
+    top: 17%;
+}#username{
+    top: 24%;
+}#pass1{
+    top: 31%;
+}#pass2{
+    top: 38%;
+}#Email{
+    top: 45%;
+}#profession{
+    top: 52%;
+}#birthday{
+    top: 59%;
+}#tel{
+    top: 66%;
+}
+#country{
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    top: 73%; 
+    margin-left: 7%;
+    font-size: 1.2em;
+}
+label{
+    font-size: 1.3em;
+    position: absolute;
+    top: 86%;
+    margin-left: 7%;
+    
+}
+#submit1,#reset1{
+    position: absolute;
+    width: 12%;
+    cursor: pointer;
+    height: 40px;
+}
+#submit1{
+    right: 1%;
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 1.4em;
+    background-color: greenyellow;
+    color: white;
+}
+#reset1{
+    left: 1%;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.4em;
+    bottom: 0;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+
+}
+p{
+    position: relative;
+    text-align: center;
+    font-size: 1.8em;
+}
+

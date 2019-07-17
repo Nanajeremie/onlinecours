@@ -1,0 +1,93 @@
+#container{
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+}
+#cover{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+#link{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+}
+#link ul{
+    position: absolute;
+    right: 2%;
+}
+
+#link ul li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 170px;
+    padding-right: 25px;
+}
+#link ul li a{
+    text-decoration: none;
+    font-size: 1.6em;
+    color: white;
+    font-family: monospace;
+}
+#link ul li a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+#link #logo{
+    width: 200px;
+    height: 150px;
+    margin: -30px 0 0 15px ;
+    border-radius: 10%;
+}
+#container strong{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 2em;
+    color: white;
+    font-family: cursive;
+    
+}
+#login{
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    width: 20%;
+    height: 40px;
+}
+#login #log1{
+    position: absolute;
+    text-align: center;
+    line-height: 37px;
+    width: 40%;
+    height: 100%;
+    right: 50%;
+    background-color: brown;
+    font-size: 1.5em;
+    color: white;
+    font-family: monospace;
+}
+#login #log2{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    line-height: 37px;
+    right: 5px;
+    background-color:orange;
+    font-size: 1.5em;
+    color: white;
+    font-family: monospace;
+}
+#login #log1:hover,#login #log2:hover{
+    background:transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+

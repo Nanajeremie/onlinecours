@@ -1,0 +1,173 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+h1{
+    opacity: 0.6;
+    font-family: serif;
+    text-align: center;
+}
+
+#welcome{
+    position: relative;
+    margin: 20px 0 20px 16%;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    width: 70%;
+    height: 500px;
+    margin-bottom: 50px;
+    }
+#welcome p{
+    position: absolute;
+    text-align: justify;
+    right: 5%;
+    width: 50%;
+    height: 100%;
+    font-size: 1.6em;
+    opacity: 0.8;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #e8ffff;
+}
+#welcome img{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+#coursecontener{
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #dbfff7;
+}
+#coursecontener ul li{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    width: 23%;
+    height: 330px;
+    box-shadow: 4px 4px 3px rgba(0,0,0,0.9);
+    margin: 50px 15px 20px -5px;
+    background-color: blueviolet;
+    overflow: hidden;
+    
+}
+#coursecontener ul li a img:hover{
+    width: 105%;
+    margin-left: -5px;
+    transition: 0.5s;
+}
+#coursecontener ul img{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    transition: 0.5s;
+}
+#coursecontener ul li h3{
+    position: absolute;
+    top: 260px;
+    left: 20%;
+    color: white;
+    
+}
+#coursecontener ul li h3:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color: lawngreen;
+}
+
+#coursecontener ul li #lien{
+    position: absolute;
+    width: 20%;
+    line-height: 30px;
+    text-align: center;
+    height: 29px;
+    bottom: 0;
+    right: 0%;
+    font-size: 1.3em;
+    font-family: monospace;
+    color: aliceblue;
+    border-top-left-radius: 10%;
+    text-decoration: none;
+    background-color: gray;
+
+    
+}
+#coursecontener ul li #lien:hover{
+    color: white;
+    background-color: cyan;   
+}
+#staff{
+    margin-top: 50px;
+    width: 100%;
+}
+#staff ul{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+#staff ul li{
+    margin: auto;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 12px;
+    width: 30%;
+    height: 340px;
+   
+}
+#staff ul li img{
+    position: absolute;
+    left: 0;
+    left: 50px;
+    width: 70%;
+    height:  250px;
+    border-radius: 100%;
+    box-shadow: 4px 6px 3px rgba(0,0,0,0.5);
+}
+#staff ul li h3{
+    position: absolute;
+    top: 250px;
+    left: 30%;
+    color: black;
+    opacity: 0.7;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: sans-serif;
+}
+#ourTeam{
+    position: relative;
+    width: 70%;
+    margin: 0 0 50px 10px;
+    height: 500px;
+    box-shadow: 3px 2px 6px rgba(0,0,0,0.9);
+}
+#ourTeam strong{
+    position: absolute;
+    left: 9%;
+    z-index: 1;
+    top: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px white;
+    font-size: 1.6em;
+}
+#ourTeam img{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    margin: 0;
+   
+}
+#ourTeam p{
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    margin-top: -1px;
+    left: 55%;
+    font-size: 1.6em;
+    text-align: justify;
+    margin-top: 40px;;
+    font-style: italic;
+    word-spacing: 10px;
+   opacity: 0.8;
+}

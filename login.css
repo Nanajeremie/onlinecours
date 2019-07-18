@@ -1,0 +1,83 @@
+
+ .modalle{
+     height: 200px;
+     width: 30%;
+     top: 0;
+     right: 10%;
+     opacity: 1;
+     position: absolute;
+     z-index: 1;
+     transition: 2s;
+    
+     }
+ .modalwrapper{
+     position: absolute;
+     top:2%;
+     width: 100%;
+     height: 90%;
+     background-color: aliceblue;
+    
+ }
+ .modalle.mode1{
+     top: -300px;
+
+   
+ }
+#loginform img{
+    position: absolute;
+    top: 0.5%;
+    left: 90%;
+    cursor: pointer;
+}
+
+
+ #loginform{
+    position: absolute;
+    border: 1px solid #7cadff;
+    box-shadow: 2px 2px 4px 3px rgba(0,0,0,0.7);
+    background-color:white; 
+    width: 100%;
+    height: 250px;
+    padding: 12% 0 70px 20px;
+}
+#user, #pass{
+    width: 90%;
+    height: 40px;
+}
+#user{
+    position: absolute;
+    top: 30%;
+}
+#pass{
+    position: absolute;
+    top: 50%;
+}
+
+#user:hover, #pass:hover, #email1:hover{
+    width: 92%;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    transition: 0.5;
+}
+#submi{
+    position: absolute;
+    bottom: 0%;
+    width: 30%;
+    height: 40px;
+    right: 1%;
+    border-radius: 20px;
+    font-size: 1.4em;
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+}
+#loginform h1{
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    top: -20px;
+    line-height: 30px;
+    left: 0;
+    text-align: center;
+}

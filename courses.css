@@ -1,0 +1,74 @@
+#pcourses{
+   width: 100px;
+}
+#pcourses span{
+position: absolute;
+top: 80%;
+color: white;
+left: 50%;
+font-size: 2em;
+font-family: cursive;
+    
+}
+#conseil{
+	text-align: justify;
+	margin: 50px 0 7% 15%;
+	width: 70%;
+	height: 50px;
+	font-size: 1.4em;
+	color: black;
+	opacity: 0.9;
+}
+#conseil a{
+	text-decoration: none;
+	color: blue;
+	
+}
+#containerCourses{
+    position: relative;
+	padding-left:1%; 
+    width: 96%;
+ 
+
+}
+#containerCourses ul{
+    margin: auto;
+    width: 100%;
+    height: 700px;
+}
+
+#containerCourses ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 0 1% 2%; 
+    position: relative;
+    width: 20%;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+    height: 320px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+#containerCourses ul li img{
+    position: absolute;
+	top: 0;
+	border-radius: 5%;
+    width: 100%;
+    height: 200px;
+}
+
+#containerCourses ul li h3{
+	position: absolute;
+	top: 240px;
+	left: 10%;
+	color: crimson;
+	font-family: sans-serif;
+	font-style: italic;
+	
+}
+#containerCourses ul li h4{
+	position: absolute;
+	top: 200px;
+	left: 20%;
+	
+}
+
+
